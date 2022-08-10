@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="/static/site.css">
+</head>
+<body>
+	<div class="content-input">
+		<div class="container">
+			<h2 class="input-title">Input Task</h2>
+			<div class="content-form">
+				<div class="form">
+					<p><label for="detail">Detail</label></p>
+					<textarea id="detail"></textarea>
+				</div>
+				<div class="form">
+					<p><label for="assign">Assignee</label></p>
+					<input type="text" id="assign">
+				</div>
+				<div class="form">
+					<label><p>Deadline</p>
+					<input type="date">
+				</div>
+				<div class="form-btn">
+					<button>Submit</button>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="content-task">
+		<div class="container">
+			<h2 class="task-title">You Task</h2>
+			<form>
+				<table>
+					<thead class="data-title">
+						<th>Detail</th>
+						<th>Assignee</th>
+						<th>Date</th>
+						<th>Action</th>
+					</thead>
+					<tr>
+						<td>Detail</td>
+						<td>Assignee</td>
+						<td>Date</td>
+						<td>
+							<ul class="action">
+								<li class="read">Read</li>
+								<li class="edit">Edit</li>
+								
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
