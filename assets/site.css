@@ -1,0 +1,65 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, a,
+form, input, div, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("office-layout.jpg");
+  background-size: cover;
+  color: #ffffff;
+
+}
+.container {
+  
+  margin-left: 200px;
+  margin-right: 600px;
+  margin-top: 59px;
+}
+
+input, textarea {
+  display: inline-block;
+  width: 200px;
+  background-color: #e3e3e3;
+  
+}
+
+.input-title {
+  padding-bottom: 15px;
+}
+
+.form-btn button {
+  display:  inline-block;
+  width: 150px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.data-title th {
+  
+  padding-right: 100px;
+
+}
+
+.action li {
+  list-style: none;
+  float: left;
+  border: 1px solid;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.read {
+  background-color: #d5273f;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: #39d527;
+  font-weight: bolder;
+  cursor: pointer;
+}
